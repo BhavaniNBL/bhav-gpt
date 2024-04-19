@@ -75,8 +75,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 -create React app
 -configured Tailwindcss
 -Header
+-Routing of App
 -Login Form
 -Sign up form
+-Form Validation
+-useRef hook
+-Firebase Setup
+-Deploying app to production
+-Create Signup User Account
+-Implement Sign in user API 
+-Created Redux Store with userSlice
+-Implemented sign out
+
 
 
 # Features
