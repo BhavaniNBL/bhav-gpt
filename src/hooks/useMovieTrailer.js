@@ -12,14 +12,13 @@ const useMovieTrailer = (movieId) => {
       API_OPTIONS
     );
     const json = await data.json();
-    console.log(json);
-    if (!json.results || json.results.length === 0) {
-        console.error("No videos found for this movie.");
-        return;
-      }
+    
+    // if (!json.results || json.results.length === 0) {
+    //     console.error("No videos found for this movie.");
+    //     return;
+    //   }
     const filterData = json.results.filter((video) => video.type === "Trailer");
     const trailer = filterData.length ? filterData[0] : json.results[0];
-    console.log(trailer);
     dispatch(addTrailerVideo(trailer));
   };
 
