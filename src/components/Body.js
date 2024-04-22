@@ -20,7 +20,7 @@ const Body = () => {
   ]);
 
   return (
-    <div>
+    <div className="no-scrollbar w-screen">
       <RouterProvider router={appRouter}></RouterProvider>
       {/* <Login />
         <Browse /> */}

@@ -106,7 +106,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 -Build movie List, card
 -TMDB Image IMG_CDN URL
 -Made the browse page amazing with the tailwind css
--usePopularMovies
+-usePopularMovies Custom hook
+-GPT Search page
+-GPT Search Bar
+-(Bonus Feature) Multi-language Feature in our app
 
 # Features
 - Login/Sign up 
